@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juice Wesite</title>
+</head>
+<body>
+    <header id="head">
+        <img src="LOGO.png" alt="Hi" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#head">Home</a></li>
+                <li><a href="#section2">Features</a></li>
+                <li><a href="#section3">Menu</a></li>
+                <li><a href="#section4">Contact</a></li>
+            </ul>           
+        </nav>
+        <button id="sign_up">Sign up</button>
+    </header>
+    <div id="section1">
+        <div id="section1part1">
+            <h1 id="h11">Revitalize Your Routine, 
+            Fresh, Fruity, Fantastic!</h1>
+            <p id="stetment">"Savor the Symphony of Flavors, with Nature's Sweetness & deliciousness.
+                <br>Get the best variety of juices here!”</p>
+                <button id="viewM"> <a href="./products/products.html">View Menu</a></button>
+                <button id="discount"><a href="#section3"></a>Discount</button>
+        </div>
+        <div id="main_img">
+                <img id="orange" src="Orange IMAGE.png" >
+        </div>
+    </div>
+
+    <div id="section2">
+        <div id="stetment2">
+        <h1 id="stetment2h">Why we are better than others</h1>
+        <p id="stetment2p">Our commitment to excellence in the realm of juices sets us apart from the competition.</p>
+       </div>
+       <div id="pineapple">
+        <img src="Pineapple.png" alt="" class="picture1">
+        </div>
+        <div id="grapes">
+        <img src="Grapes.png" alt="" class="picture2">
+        </div>
+        <div id="watermelon">
+        <img src="Watermelon.png" alt="" class="picture3">
+        </div>
+    </div>
+
+    <section id="section3">
+        <div id="section3a">
+        <h1 id="explore">Explore our best<br> menu selections</h1>
+        </div>
+        <div id="section3b">
+       <div id="best">
+        <div id="best1" class="best">
+            <img src="Heart Group -- 1.png" alt=""class="heart">
+            <img class="bestimg" src="MANGO.png" alt="">
+            <div id="des1">
+            <h4>Mango Bliss Burst</h4>
+            <p id="description1">Description of the item</p>
+            <p id="price"><span>$</span>10.00</p>
+            </div>
+        </div>
+        <div id="best2" class="best">
+            <img src="Heart Group -- 1.png" alt=""class="heart">
+            <img class="bestimg" src="KIWI IMAGE.png" alt="">
+            <div id="des2">
+            <h4>Pure Kiwi Joy</h4>
+            <p id="description2">Description of the item</p>
+            <p id="price"><span>$</span>8.00</p>
+            </div>
+        </div>
+        <div id="best3" class="best">
+            <img src="Heart Group -- 1.png" alt="" class="heart">
+            <img class="bestimg_br" src="raspberyy.png" alt="" >
+            <div id="des3">
+            <h4>Berry Burst Bliss</h4>
+            <p id="description3">Description of the item</p>
+            <p id="price"><span>$</span>11.00</p>
+            </div>
+            
+        </div>
+        
+    </div>
+        <p id="viewall"><a href="./products/products.html">View All</a></p>
+        </div>
+    </section>
+    <section id="section-4">
+        <div id="section4">
+        <div id="contact_us">
+            <h4>Contact Us</h4>
+            <p>Send us a message</p>
+            <form>
+                <input type="text" id="fullName" placeholder="Full Name"><br>
+                <input type="email" id="email" placeholder="Your Email"><br>
+                <textarea name="message" id="" cols="30" rows="10" >Your message...</textarea><br>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <div id="site_map">
+            <h4>Sitemap</h4>
+            <p>All our pages</p>
+            <ul id="map">
+                <li id="maplist"><a href="#head">Home</a></li>
+                <li id="maplist"><a href="#section2">Features</a></li>
+                <li id="maplist"><a href="#section3">Menu</a></li>
+                <li id="maplist"><a href="#section4">Contact</a></li>
+            </ul>
+        </div>
+        <div id="address">
+            <img src="LOGO.png" alt="" id="adress_logo">
+            <!--<img src="Vector.png" alt="">-->
+            <p>(08) 400 2000</p>
+            <!--<img src="Vector (1).png" alt="">-->
+            <p>xyz@gmail.com</p>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright       2023 Dscode | All rights reserved</p>
+    </footer>
+    <script>
+        const products = [
+           { id: 1,
+            name: "product 1", 
+            description:"Description of the item",
+            prize: "$10",
+            Image: "./MANGO.jpg"
+
+        },
+
+        { id: 2,
+            name: "product 1", 
+            description:"Description of the item",
+            prize: "$10",
+            Image: "./KIWI IMAGE.png"
+
+        },
+        { id: 3,
+            name: "product 1", 
+            description:"Description of the item",
+            prize: "$10",
+            Image: "./respberry.png"
+
+        }
+        ]
+    </script>
+</body>
+</html>
